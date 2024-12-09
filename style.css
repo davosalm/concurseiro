@@ -1,0 +1,213 @@
+/* Variáveis para as cores */
+:root {
+    --bg-color: #f5f5f5;
+    --text-color: #333;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --highlight-color: #ffc107;
+    --border-color: #ccc;
+    --card-bg-color: #fff;
+}
+
+/* Modo Noturno */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #222;
+        --text-color: #eee;
+        --primary-color: #009dff;
+        --secondary-color: #757d86;
+        --success-color: #34c759;
+        --danger-color: #ff453a;
+        --highlight-color: #ffd34e;
+        --border-color: #555;
+        --card-bg-color: #333;
+    }
+}
+
+/* Estilos Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+/* Toggle de Tema */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinha à direita */
+    margin-bottom: 20px;
+}
+
+#theme-toggle {
+    display: none; /* Esconde o checkbox padrão */
+}
+
+.slider {
+    background-color: var(--secondary-color);
+    border-radius: 34px;
+    cursor: pointer;
+    height: 34px;
+    position: relative;
+    transition: 0.4s;
+    width: 60px;
+}
+
+.slider::before {
+    background-color: white;
+    border-radius: 50%;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    transition: 0.4s;
+    width: 26px;
+}
+
+#theme-toggle:checked + .slider {
+    background-color: var(--primary-color);
+}
+
+#theme-toggle:checked + .slider::before {
+    transform: translateX(26px);
+}
+
+/* Selects */
+select {
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    -webkit-appearance: none; /* Remove a aparência padrão do select no Chrome/Safari */
+    -moz-appearance: none; /* Remove a aparência padrão do select no Firefox */
+    appearance: none; /* Remove a aparência padrão do select em outros navegadores */
+}
+
+/* Botões */
+button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 12px 20px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Efeito de "levantar" ao passar o mouse */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+}
+
+/* Tela do Quiz */
+#question-container {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.option {
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.option:hover {
+    background-color: var(--highlight-color);
+    transform: scale(1.05); /* Efeito de "aumentar" ao passar o mouse */
+}
+
+/* Resposta Selecionada */
+.option.selected {
+    animation: pulse 1s infinite alternate; /* Animação de pulsação */
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 5px var(--highlight-color);
+    }
+    to {
+        box-shadow: 0 0 15px var(--highlight-color);
+    }
+}
+
+.option.correct {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+    color: white;
+    animation: none; /* Remove a animação de pulsação */
+}
+
+.option.wrong {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+    color: white;
+    animation: none; /* Remove a animação de pulsação */
+}
+
+/* Streak */
+#streak {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 95%;
+    }
+
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    #question-container {
+        font-size: 16px;
+    }
+
+    .option {
+        font-size: 14px;
+    }
+}

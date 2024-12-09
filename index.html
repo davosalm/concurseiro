@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz App</h1>
+            <div class="toggle-container">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </header>
+        <main>
+            <div id="start-screen">
+                <h2>Escolha o Tema</h2>
+                <select id="theme">
+                    <option value="constitucional">Direito Constitucional</option>
+                    <option value="administrativo">Direito Administrativo</option>
+                    <option value="portugues">Português</option>
+                    <option value="raciocinio">Raciocínio Lógico</option>
+                    <option value="administracao">Administração</option>
+                </select>
+                <button id="start-quiz">Começar</button>
+            </div>
+
+            <div id="quiz-screen" style="display: none;">
+                <div id="question-container">
+                    <p id="question-text"></p>
+                </div>
+                <div id="options-container"></div>
+                <div id="streak">Streak: <span id="streak-count">0</span></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
