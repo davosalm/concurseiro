@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>Questões de Concursos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Quiz App</h1>
+            <h1>Questões de Concursos</h1>
+            <div class="top-right-buttons">
+                <button id="about-button">Sobre</button>
+            </div>
             <div class="toggle-container">
                 <input type="checkbox" id="theme-toggle">
                 <label for="theme-toggle">
@@ -36,6 +39,13 @@
                 </div>
                 <div id="options-container"></div>
                 <div id="streak">Streak: <span id="streak-count">0</span></div>
+            </div>
+            <div id="about-popup" class="popup">
+                <div class="popup-content">
+                    <span class="close-button">&times;</span>
+                    <p>Desenvolvido por David Silva.</p>
+                    <p>Dúvidas ou sugestões, enviar e-mail para <a href="mailto:davosalm@gmail.com">davosalm@gmail.com</a></p>
+                </div>
             </div>
         </main>
     </div>

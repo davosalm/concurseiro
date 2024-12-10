@@ -496,7 +496,11 @@ startQuizButton.addEventListener("click", startQuiz);
 
 // Modo Noturno
 themeToggle.addEventListener("change", () => {
-    document.body.classList.toggle("dark-mode");
+    if (themeToggle.checked) {
+        document.body.classList.add("dark-mode");
+    } else {
+        document.body.classList.remove("dark-mode");
+    }
 });
 
 // Pular Questão (fora da função selectAnswer)
@@ -509,6 +513,26 @@ skipButton.addEventListener("click", () => {
 
 // Adiciona o botão "Pular" inicialmente
 optionsContainer.appendChild(skipButton);
+
+// Botão "Sobre"
+const aboutButton = document.getElementById("about-button");
+const aboutPopup = document.getElementById("about-popup");
+const closeButton = document.querySelector(".close-button");
+
+aboutButton.addEventListener("click", () => {
+    aboutPopup.style.display = "block";
+});
+
+closeButton.addEventListener("click", () => {
+    aboutPopup.style.display = "none";
+});
+
+// Fechar o popup ao clicar fora dele
+window.addEventListener("click", (event) => {
+    if (event.target === aboutPopup) {
+        aboutPopup.style.display = "none";
+    }
+});
 
 // Inicializar
 loadStreak();

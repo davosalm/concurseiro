@@ -9,21 +9,21 @@
     --highlight-color: #ffc107;
     --border-color: #ccc;
     --card-bg-color: #fff;
+    --shadow-color: rgba(0, 0, 0, 0.2); /* Cor da sombra */
 }
 
 /* Modo Noturno */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #222;
-        --text-color: #eee;
-        --primary-color: #009dff;
-        --secondary-color: #757d86;
-        --success-color: #34c759;
-        --danger-color: #ff453a;
-        --highlight-color: #ffd34e;
-        --border-color: #555;
-        --card-bg-color: #333;
-    }
+.dark-mode {
+    --bg-color: #222;
+    --text-color: #eee;
+    --primary-color: #009dff;
+    --secondary-color: #757d86;
+    --success-color: #34c759;
+    --danger-color: #ff453a;
+    --highlight-color: #ffd34e;
+    --border-color: #555;
+    --card-bg-color: #333;
+    --shadow-color: rgba(255, 255, 255, 0.1); /* Cor da sombra no modo noturno */
 }
 
 /* Estilos Gerais */
@@ -42,10 +42,15 @@ body {
 .container {
     background-color: var(--card-bg-color);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px var(--shadow-color); /* Sombra mais expressiva */
     padding: 30px;
     width: 80%;
     max-width: 600px;
+    transition: box-shadow 0.3s ease; /* Transição suave para a sombra */
+}
+
+.container:hover {
+    box-shadow: 0 12px 24px var(--shadow-color); /* Sombra ainda mais expressiva no hover */
 }
 
 h1, h2 {
@@ -54,12 +59,20 @@ h1, h2 {
     color: var(--primary-color);
 }
 
+/* Título da página */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px var(--shadow-color); /* Sombra no texto */
+}
+
 /* Toggle de Tema */
 .toggle-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Alinha à direita */
-    margin-bottom: 20px;
 }
 
 #theme-toggle {
@@ -74,6 +87,7 @@ h1, h2 {
     position: relative;
     transition: 0.4s;
     width: 60px;
+    box-shadow: 0 2px 4px var(--shadow-color); /* Sombra no slider */
 }
 
 .slider::before {
@@ -86,6 +100,7 @@ h1, h2 {
     top: 4px;
     transition: 0.4s;
     width: 26px;
+    box-shadow: 0 2px 4px var(--shadow-color); /* Sombra no botão do slider */
 }
 
 #theme-toggle:checked + .slider {
@@ -110,6 +125,7 @@ select {
     -webkit-appearance: none; /* Remove a aparência padrão do select no Chrome/Safari */
     -moz-appearance: none; /* Remove a aparência padrão do select no Firefox */
     appearance: none; /* Remove a aparência padrão do select em outros navegadores */
+    box-shadow: 0 2px 4px var(--shadow-color); /* Sombra no select */
 }
 
 /* Botões */
@@ -124,13 +140,14 @@ button {
     margin-top: 20px;
     padding: 12px 20px;
     width: 100%;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px var(--shadow-color); /* Sombra nos botões */
 }
 
 button:hover {
     background-color: #0056b3;
     transform: translateY(-2px); /* Efeito de "levantar" ao passar o mouse */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+    box-shadow: 0 4px 8px var(--shadow-color); /* Sombra mais expressiva no hover */
 }
 
 /* Tela do Quiz */
@@ -148,12 +165,14 @@ button:hover {
     font-size: 16px;
     margin-bottom: 10px;
     padding: 10px;
-    transition: background-color 0.3s ease, transform 0.1s ease;
+    transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px var(--shadow-color); /* Sombra nas opções */
 }
 
 .option:hover {
     background-color: var(--highlight-color);
     transform: scale(1.05); /* Efeito de "aumentar" ao passar o mouse */
+    box-shadow: 0 4px 8px var(--shadow-color); /* Sombra mais expressiva no hover */
 }
 
 /* Resposta Selecionada */
@@ -175,6 +194,7 @@ button:hover {
     border-color: var(--success-color);
     color: white;
     animation: none; /* Remove a animação de pulsação */
+    box-shadow: 0 2px 4px var(--shadow-color); /* Sombra na opção correta */
 }
 
 .option.wrong {
@@ -182,6 +202,7 @@ button:hover {
     border-color: var(--danger-color);
     color: white;
     animation: none; /* Remove a animação de pulsação */
+    box-shadow: 0 2px 4px var(--shadow-color); /* Sombra na opção errada */
 }
 
 /* Streak */
@@ -210,4 +231,46 @@ button:hover {
     .option {
         font-size: 14px;
     }
+}
+
+/* Botões do canto superior direito */
+.top-right-buttons {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#about-button {
+    width: auto;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--card-bg-color);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    padding: 20px;
+    z-index: 10;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
 }
