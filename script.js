@@ -345,9 +345,61 @@ const questions = [
         options: ["Administrar recursos", "Liderar pessoas", "Alcançar objetivos", "Todas as anteriores"],
         answer: "Todas as anteriores",
     },
+
+    // Banco do Brasil - 2015
+    {
+        theme: "raciocinio",
+        question: "(Banco do Brasil - 2015) Aldo, Baldo e Caldo resolvem fazer um bolão para um concurso da Mega-Sena. Aldo contribui com 12 bilhetes, Baldo, com 15 bilhetes e Caldo, com 9 bilhetes. Eles combinaram que, se um dos bilhetes do bolão fosse sorteado, o prêmio seria dividido entre os três proporcionalmente à quantidade de bilhetes com que cada um contribuiu. Caldo também fez uma aposta fora do bolão e, na data do sorteio, houve 2 bilhetes ganhadores, sendo um deles o da aposta individual de Caldo, e o outro, um dos bilhetes do bolão. Qual a razão entre a quantia total que Caldo recebeu e a quantia que Baldo recebeu?",
+        options: ["0,8", "1,5", "2", "2,5", "3"],
+        answer: "3",
+    },
+    {
+        theme: "conhecimentos",
+        question: "(Banco do Brasil - 2015) A Comissão de Valores Mobiliários (CVM) é um órgão que regula e fiscaliza o mercado de capitais no Brasil, sendo",
+        options: ["subordinada ao Banco Central do Brasil", "subordinada ao Banco do Brasil", "subordinada à Bolsa de Valores de São Paulo (BOVESPA)", "independente do poder público", "vinculada ao poder executivo (Ministério da Fazenda)"],
+        answer: "vinculada ao poder executivo (Ministério da Fazenda)",
+    },
+    {
+        theme: "raciocinio",
+        question: "(Banco do Brasil - 2015) Amanda e Belinha são amigas e possuem assinaturas de TV a cabo de empresas diferentes. A empresa de TV a cabo de Amanda dá descontos de 25% na compra dos ingressos de cinema de um shopping. A empresa de TV a cabo de Belinha dá desconto de 30% na compra de ingressos do mesmo cinema. O preço do ingresso de cinema, sem desconto, é de R$ 20,00. Em um passeio em família, Amanda compra 4 ingressos, e Belinha compra 5 ingressos de cinema no shopping, ambas utilizando-se dos descontos oferecidos por suas respectivas empresas de TV a cabo. Quantos reais Belinha gasta a mais que Amanda na compra dos ingressos?",
+        options: ["10", "15", "20", "25", "30"],
+        answer: "10",
+    },
+    {
+        theme: "raciocinio",
+        question: "(Banco do Brasil - 2015) Em uma determinada agência bancária, para um cliente que chega entre 15 h e 16 h, a probabilidade de que o tempo de espera na fila para ser atendido seja menor ou igual a 15 min é de 80%. Considerando que quatro clientes tenham chegado na agência entre 15 h e 16 h, qual a probabilidade de que exatamente três desses clientes esperem mais de 15 min na fila?",
+        options: ["0,64%", "2,56%", "30,72%", "6,67%", "10,24%"],
+        answer: "2,56%",
+    },
+    {
+        theme: "raciocinio",
+        question: "(Banco do Brasil - 2015) Um grupo de analistas financeiros composto por 3 especialistas – X, Y e Z – possui a seguinte característica: X e Y decidem corretamente com probabilidade de 80%, e Z decide corretamente em metade das vezes. Como as decisões são tomadas pela maioria, a probabilidade de o grupo tomar uma decisão correta é:",
+        options: ["0,16", "0,64", "0,48", "0,32", "0,80"],
+        answer: "0,80",
+    },
+
+    // Questões do IBGE
+    {
+        theme: "conhecimentos",
+        question: "(IBGE - 2007) Em 2006, o IBGE completou 70 anos de sua fundação. Esse instituto foi criado no contexto histórico da(o):",
+        options: ["Ditadura Militar, de Costa e Silva", "Transição Democrática, de José Sarney", "Estado Novo, de Getúlio Vargas", "Plano de Metas, de Juscelino Kubitschek", "Milagre Brasileiro, de Ernesto Geisel"],
+        answer: "Estado Novo, de Getúlio Vargas",
+    },
+    {
+        theme: "conhecimentos",
+        question: "(IBGE - 2011) Uma nova medição realizada em 2004 pelo Instituto Brasileiro de Geografia e Estatística IBGE foi responsável pela mudança do ponto considerado o mais alto do país que de pouco mais de 3 mil metros de altitude passou a ter pouco mais de 2900 metros. Localizado na região Norte brasileira, recebe a denominação de:",
+        options: ["Pico da Neblina", "Pico Cristal", "Pico da Bandeira", "Pico 31 de Março", "Pico das Agulhas Negras"],
+        answer: "Pico da Neblina",
+    },
+    {
+        theme: "conhecimentos",
+        question: "(IBGE - 2007) O Brasil é uma república federativa formada pela União, pelos estados e pelos municípios. A Câmara dos Deputados e as Câmaras de Vereadores correspondem, respectivamente, aos níveis federativos:",
+        options: ["municipal e federal", "estadual e federal", "estadual e distrital", "federal e estadual", "federal e municipal"],
+        answer: "federal e municipal",
+    },
 ];
 
-const themes = ["constitucional", "administrativo", "portugues", "raciocinio", "administracao", /* ... outras categorias ... */];
+const themes = ["constitucional", "administrativo", "portugues", "raciocinio", "administracao", "conhecimentos" /* ... outras categorias ... */];
 let currentThemeIndex = 0;
 
 // Elementos do DOM
