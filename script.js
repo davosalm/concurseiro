@@ -95,7 +95,7 @@ const questions = [
     },
     {
         theme: "administrativo",
-        question: "O que é poder de polícia?",
+        question: "O que é poder de policia?",
         options: ["A capacidade da polícia de prender criminosos", "A capacidade da Administração Pública de limitar direitos individuais em benefício do interesse público", "A capacidade do Presidente da República de governar", "A capacidade do Congresso Nacional de criar leis"],
         answer: "A capacidade da Administração Pública de limitar direitos individuais em benefício do interesse público",
     },
@@ -119,163 +119,151 @@ const questions = [
     },
     {
         theme: "administrativo",
-        question: "O que é responsabilidade civil do Estado?",
-        options: ["A obrigação do Estado de indenizar danos causados a terceiros", "A obrigação do Estado de punir criminosos", "A obrigação do Estado de criar leis", "A obrigação do Estado de realizar eleições"],
-        answer: "A obrigação do Estado de indenizar danos causados a terceiros",
+        question: "O que é um ato discricionário?",
+        options: ["Um ato que a Administração Pública é obrigada a praticar", "Um ato que a Administração Pública tem liberdade para praticar", "Um ato que a Administração Pública não pode praticar", "Um ato que a Administração Pública pratica em conjunto com o Poder Judiciário"],
+        answer: "Um ato que a Administração Pública tem liberdade para praticar",
+    },
+    {
+        theme: "administrativo",
+        question: "O que é um ato vinculado?",
+        options: ["Um ato que a Administração Pública é obrigada a praticar", "Um ato que a Administração Pública tem liberdade para praticar", "Um ato que a Administração Pública não pode praticar", "Um ato que a Administração Pública pratica em conjunto com o Poder Legislativo"],
+        answer: "Um ato que a Administração Pública é obrigada a praticar",
     },
     {
         theme: "administrativo",
         question: "O que é um contrato administrativo?",
-        options: ["Um contrato entre particulares", "Um contrato entre a Administração Pública e um particular", "Um contrato entre dois órgãos públicos", "Um contrato internacional"],
+        options: ["Um contrato entre particulares", "Um contrato entre a Administração Pública e um particular", "Um contrato entre a Administração Pública e um servidor público", "Um contrato entre a Administração Pública e um órgão público"],
         answer: "Um contrato entre a Administração Pública e um particular",
     },
     {
         theme: "administrativo",
-        question: "O que é um órgão público?",
-        options: ["Uma empresa privada", "Uma entidade da Administração Pública", "Uma organização não governamental", "Um partido político"],
-        answer: "Uma entidade da Administração Pública",
-    },
-    {
-        theme: "administrativo",
-        question: "O que é a Administração Pública?",
-        options: ["O conjunto de órgãos e entidades que exercem a função administrativa do Estado", "O Poder Judiciário", "O Poder Legislativo", "O Presidente da República"],
-        answer: "O conjunto de órgãos e entidades que exercem a função administrativa do Estado",
+        question: "O que é uma autarquia?",
+        options: ["Uma empresa privada", "Uma entidade da Administração Pública Indireta", "Um órgão da Administração Pública Direta", "Uma organização não governamental"],
+        answer: "Uma entidade da Administração Pública Indireta",
     },
 
-    // Português (11 questões placeholder)
+    // Português (10 questões placeholder)
     {
         theme: "portugues",
-        question: "Qual é o plural de 'cão'?",
-        options: ["Cães", "Cãos", "Cãeses", "Canis"],
-        answer: "Cães",
+        question: "Qual é a forma correta do plural de 'cidadão'?",
+        options: ["Cidadãos", "Cidadões", "Cidadães", "Cidadões"],
+        answer: "Cidadãos",
     },
     {
         theme: "portugues",
-        question: "Qual é o feminino de 'gato'?",
-        options: ["Gata", "Gatoa", "Gatinha", "Gatona"],
-        answer: "Gata",
+        question: "Qual é o coletivo de 'abelhas'?",
+        options: ["Enxame", "Colmeia", "Revoada", "Nuvem"],
+        answer: "Enxame",
     },
     {
         theme: "portugues",
-        question: "Qual é o antônimo de 'bom'?",
-        options: ["Mau", "Ruim", "Péssimo", "Malvado"],
-        answer: "Mau",
+        question: "Qual é a classe gramatical da palavra 'rapidamente'?",
+        options: ["Advérbio", "Adjetivo", "Substantivo", "Verbo"],
+        answer: "Advérbio",
     },
     {
         theme: "portugues",
-        question: "Qual é o sinônimo de 'feliz'?",
-        options: ["Alegre", "Triste", "Raiva", "Medo"],
-        answer: "Alegre",
+        question: "Qual é o antônimo de 'claro'?",
+        options: ["Escuro", "Iluminado", "Brilhante", "Luminoso"],
+        answer: "Escuro",
     },
     {
         theme: "portugues",
-        question: "Qual é o verbo na frase 'Eu como maçã'?",
-        options: ["Eu", "Como", "Maçã", "Nenhum"],
-        answer: "Como",
+        question: "Qual é o sinônimo de 'alegria'?",
+        options: ["Felicidade", "Tristeza", "Raiva", "Medo"],
+        answer: "Felicidade",
     },
     {
         theme: "portugues",
-        question: "Qual é o substantivo na frase 'O carro é vermelho'?",
-        options: ["O", "Carro", "É", "Vermelho"],
-        answer: "Carro",
+        question: "Qual é a forma correta do verbo 'ir' no pretérito perfeito do indicativo, na 1ª pessoa do plural?",
+        options: ["Fomos", "Íamos", "Vamos", "iremos"],
+        answer: "Fomos",
     },
     {
         theme: "portugues",
-        question: "Qual é o adjetivo na frase 'A casa é grande'?",
-        options: ["A", "Casa", "É", "Grande"],
-        answer: "Grande",
+        question: "Qual é a conjugação do verbo 'ser' no presente do indicativo, na 3ª pessoa do singular?",
+        options: ["É", "Sou", "Somos", "São"],
+        answer: "É",
     },
     {
         theme: "portugues",
-        question: "Qual é o advérbio na frase 'Ele corre rapidamente'?",
-        options: ["Ele", "Corre", "Rapidamente", "Nenhum"],
-        answer: "Rapidamente",
+        question: "Qual é a regência do verbo 'assistir' no sentido de 'ver'?",
+        options: ["Assistir a", "Assistir em", "Assistir com", "Assistir para"],
+        answer: "Assistir a",
     },
     {
         theme: "portugues",
-        question: "Qual é o pronome na frase 'Eu te amo'?",
-        options: ["Eu", "Te", "Amo", "Nenhum"],
-        answer: "Te",
+        question: "Qual é a figura de linguagem presente na frase 'A cidade inteira dormia'?",
+        options: ["Metonímia", "Metáfora", "Hipérbole", "Eufemismo"],
+        answer: "Metonímia",
     },
     {
         theme: "portugues",
-        question: "Qual é a preposição na frase 'Eu vou para a escola'?",
-        options: ["Eu", "Vou", "Para", "Escola"],
-        answer: "Para",
-    },
-    {
-        theme: "portugues",
-        question: "Qual é a conjunção na frase 'Eu gosto de você e de seu irmão'?",
-        options: ["Eu", "Gosto", "E", "Irmão"],
-        answer: "E",
+        question: "Qual é a função sintática do termo 'às aulas' na frase 'Ele faltou às aulas'?",
+        options: ["Objeto indireto", "Adjunto adverbial de lugar", "Complemento nominal", "Adjunto adnominal"],
+        answer: "Objeto indireto",
     },
 
-    // Raciocínio Lógico (11 questões placeholder)
+    // Raciocínio Lógico (10 questões placeholder)
     {
         theme: "raciocinio",
-        question: "Qual é o próximo número na sequência: 2, 4, 6, 8, ...?",
-        options: ["10", "11", "12", "13"],
-        answer: "10",
+        question: "Se todos os cães são mamíferos e todos os mamíferos são vertebrados, então todos os cães são vertebrados?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
     {
         theme: "raciocinio",
-        question: "Se todos os gatos são mamíferos e todos os mamíferos são animais, então todos os gatos são animais?",
-        options: ["Sim", "Não"],
-        answer: "Sim",
+        question: "Se alguns gatos são pretos e todos os gatos são felinos, então alguns felinos são pretos?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
     {
         theme: "raciocinio",
-        question: "Se A é maior que B e B é maior que C, então A é maior que C?",
-        options: ["Sim", "Não"],
-        answer: "Sim",
+        question: "Se nenhum peixe é mamífero e todos os tubarões são peixes, então nenhum tubarão é mamífero?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
     {
         theme: "raciocinio",
-        question: "Qual é o valor de 2 + 2?",
-        options: ["4", "5", "6", "7"],
-        answer: "4",
+        question: "Se todos os carros são veículos e alguns veículos são azuis, então todos os carros são azuis?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Falso",
     },
     {
         theme: "raciocinio",
-        question: "Qual é o valor de 5 - 3?",
-        options: ["2", "3", "4", "5"],
-        answer: "2",
+        question: "Se algumas árvores são frutíferas e todas as árvores são plantas, então algumas plantas são frutíferas?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
     {
         theme: "raciocinio",
-        question: "Qual é o valor de 3 * 2?",
-        options: ["6", "7", "8", "9"],
-        answer: "6",
+        question: "Se todos os livros são objetos e alguns objetos são pesados, então alguns livros são pesados?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
     {
         theme: "raciocinio",
-        question: "Qual é o valor de 8 / 2?",
-        options: ["4", "5", "6", "7"],
-        answer: "4",
+        question: "Se nenhum metal é orgânico e todos os ouros são metais, então nenhum ouro é orgânico?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
     {
         theme: "raciocinio",
-        question: "Se uma maçã custa R$ 1, quanto custam 3 maçãs?",
-        options: ["R$ 3", "R$ 4", "R$ 5", "R$ 6"],
-        answer: "R$ 3",
+        question: "Se todos os planetas são corpos celestes e alguns corpos celestes são habitáveis, então alguns planetas são habitáveis?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
     {
         theme: "raciocinio",
-        question: "Se um carro percorre 100 km em 2 horas, qual é a sua velocidade média?",
-        options: ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
-        answer: "50 km/h",
+        question: "Se algumas flores são vermelhas e todas as rosas são flores, então algumas rosas são vermelhas?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
     {
         theme: "raciocinio",
-        question: "Se um quadrado tem lado 4, qual é a sua área?",
-        options: ["16", "17", "18", "19"],
-        answer: "16",
-    },
-    {
-        theme: "raciocinio",
-        question: "Se um círculo tem raio 3, qual é o seu perímetro?",
-        options: ["18,84", "19,84", "20,84", "21,84"],
-        answer: "18,84",
+        question: "Se todos os insetos são invertebrados e alguns invertebrados são voadores, então alguns insetos são voadores?",
+        options: ["Verdadeiro", "Falso"],
+        answer: "Verdadeiro",
     },
 
     // Administração (11 questões placeholder)
@@ -346,138 +334,129 @@ const questions = [
         answer: "Todas as anteriores",
     },
 
-    // Banco do Brasil - 2015
+    // Conhecimentos Bancários (10 questões placeholder)
     {
-        theme: "raciocinio",
-        exam: "Banco do Brasil",
-        question: "(Banco do Brasil - 2015) Aldo, Baldo e Caldo resolvem fazer um bolão para um concurso da Mega-Sena. Aldo contribui com 12 bilhetes, Baldo, com 15 bilhetes e Caldo, com 9 bilhetes. Eles combinaram que, se um dos bilhetes do bolão fosse sorteado, o prêmio seria dividido entre os três proporcionalmente à quantidade de bilhetes com que cada um contribuiu. Caldo também fez uma aposta fora do bolão e, na data do sorteio, houve 2 bilhetes ganhadores, sendo um deles o da aposta individual de Caldo, e o outro, um dos bilhetes do bolão. Qual a razão entre a quantia total que Caldo recebeu e a quantia que Baldo recebeu?",
-        options: ["0,8", "1,5", "2", "2,5", "3"],
-        answer: "3",
+        theme: "conhecimentos",
+        question: "O que é um banco?",
+        options: ["Uma instituição financeira", "Uma loja", "Uma escola", "Um hospital"],
+        answer: "Uma instituição financeira",
     },
     {
         theme: "conhecimentos",
-        exam: "Banco do Brasil",
-        question: "(Banco do Brasil - 2015) A Comissão de Valores Mobiliários (CVM) é um órgão que regula e fiscaliza o mercado de capitais no Brasil, sendo",
-        options: ["subordinada ao Banco Central do Brasil", "subordinada ao Banco do Brasil", "subordinada à Bolsa de Valores de São Paulo (BOVESPA)", "independente do poder público", "vinculada ao poder executivo (Ministério da Fazenda)"],
-        answer: "vinculada ao poder executivo (Ministério da Fazenda)",
+        question: "O que é uma conta corrente?",
+        options: ["Uma conta para guardar dinheiro", "Uma conta para fazer investimentos", "Uma conta para receber salário", "Todas as anteriores"],
+        answer: "Todas as anteriores",
     },
     {
-        theme: "raciocinio",
-        exam: "Banco do Brasil",
-        question: "(Banco do Brasil - 2015) Amanda e Belinha são amigas e possuem assinaturas de TV a cabo de empresas diferentes. A empresa de TV a cabo de Amanda dá descontos de 25% na compra dos ingressos de cinema de um shopping. A empresa de TV a cabo de Belinha dá desconto de 30% na compra de ingressos do mesmo cinema. O preço do ingresso de cinema, sem desconto, é de R$ 20,00. Em um passeio em família, Amanda compra 4 ingressos, e Belinha compra 5 ingressos de cinema no shopping, ambas utilizando-se dos descontos oferecidos por suas respectivas empresas de TV a cabo. Quantos reais Belinha gasta a mais que Amanda na compra dos ingressos?",
-        options: ["10", "15", "20", "25", "30"],
-        answer: "10",
+        theme: "conhecimentos",
+        question: "O que é um cartão de crédito?",
+        options: ["Um cartão para fazer compras", "Um cartão para sacar dinheiro", "Um cartão para pagar contas", "Todas as anteriores"],
+        answer: "Todas as anteriores",
     },
     {
-        theme: "raciocinio",
-        exam: "Banco do Brasil",
-        question: "(Banco do Brasil - 2015) Em uma determinada agência bancária, para um cliente que chega entre 15 h e 16 h, a probabilidade de que o tempo de espera na fila para ser atendido seja menor ou igual a 15 min é de 80%. Considerando que quatro clientes tenham chegado na agência entre 15 h e 16 h, qual a probabilidade de que exatamente três desses clientes esperem mais de 15 min na fila?",
-        options: ["0,64%", "2,56%", "30,72%", "6,67%", "10,24%"],
-        answer: "2,56%",
+        theme: "conhecimentos",
+        question: "O que é um empréstimo?",
+        options: ["Uma quantia de dinheiro que se pega emprestado", "Uma quantia de dinheiro que se dá de presente", "Uma quantia de dinheiro que se guarda no banco", "Uma quantia de dinheiro que se investe"],
+        answer: "Uma quantia de dinheiro que se pega emprestado",
     },
     {
-        theme: "raciocinio",
-        exam: "Banco do Brasil",
-        question: "(Banco do Brasil - 2015) Um grupo de analistas financeiros composto por 3 especialistas  X, Y e Z – possui a seguinte característica: X e Y decidem corretamente com probabilidade de 80%, e Z decide corretamente em metade das vezes. Como as decisões são tomadas pela maioria, a probabilidade de o grupo tomar uma decisão correta é:",
-        options: ["0,16", "0,64", "0,48", "0,32", "0,80"],
-        answer: "0,80",
+        theme: "conhecimentos",
+        question: "O que é uma taxa de juros?",
+        options: ["Uma taxa que se paga para usar um serviço", "Uma taxa que se recebe por um investimento", "Uma taxa que se paga por um empréstimo", "Todas as anteriores"],
+        answer: "Todas as anteriores",
+    },
+    {
+        theme: "conhecimentos",
+        question: "O que é um investimento?",
+        options: ["Uma forma de guardar dinheiro", "Uma forma de ganhar dinheiro", "Uma forma de gastar dinheiro", "Uma forma de perder dinheiro"],
+        answer: "Uma forma de ganhar dinheiro",
+    },
+    {
+        theme: "conhecimentos",
+        question: "O que é uma poupança?",
+        options: ["Uma conta para guardar dinheiro", "Uma conta para fazer investimentos", "Uma conta para receber salário", "Uma conta para pagar contas"],
+        answer: "Uma conta para guardar dinheiro",
+    },
+    {
+        theme: "conhecimentos",
+        question: "O que é um cheque?",
+        options: ["Um documento para fazer pagamentos", "Um documento para receber dinheiro", "Um documento para sacar dinheiro", "Um documento para investir dinheiro"],
+        answer: "Um documento para fazer pagamentos",
+    },
+    {
+        theme: "conhecimentos",
+        question: "O que é um depósito?",
+        options: ["Uma quantia de dinheiro que se coloca no banco", "Uma quantia de dinheiro que se retira do banco", "Uma quantia de dinheiro que se empresta do banco", "Uma quantia de dinheiro que se investe no banco"],
+        answer: "Uma quantia de dinheiro que se coloca no banco",
+    },
+    {
+        theme: "conhecimentos",
+        question: "O que é um extrato bancário?",
+        options: ["Um documento que mostra as movimentações da conta", "Um documento que autoriza um pagamento", "Um documento que comprova um depósito", "Um documento que solicita um empréstimo"],
+        answer: "Um documento que mostra as movimentações da conta",
     },
 
-    // Questões do IBGE
-    {
-        theme: "conhecimentos",
-        exam: "IBGE",
-        question: "(IBGE - 2007) Em 2006, o IBGE completou 70 anos de sua fundação. Esse instituto foi criado no contexto histórico da(o):",
-        options: ["Ditadura Militar, de Costa e Silva", "Transição Democrática, de José Sarney", "Estado Novo, de Getúlio Vargas", "Plano de Metas, de Juscelino Kubitschek", "Milagre Brasileiro, de Ernesto Geisel"],
-        answer: "Estado Novo, de Getúlio Vargas",
-    },
-    {
-        theme: "conhecimentos",
-        exam: "IBGE",
-        question: "(IBGE - 2011) Uma nova medição realizada em 2004 pelo Instituto Brasileiro de Geografia e Estatística IBGE foi responsável pela mudança do ponto considerado o mais alto do país que de pouco mais de 3 mil metros de altitude passou a ter pouco mais de 2900 metros. Localizado na região Norte brasileira, recebe a denominação de:",
-        options: ["Pico da Neblina", "Pico Cristal", "Pico da Bandeira", "Pico 31 de Março", "Pico das Agulhas Negras"],
-        answer: "Pico da Neblina",
-    },
-    {
-        theme: "conhecimentos",
-        exam: "IBGE",
-        question: "(IBGE - 2007) O Brasil é uma república federativa formada pela União, pelos estados e pelos municípios. A Câmara dos Deputados e as Câmaras de Vereadores correspondem, respectivamente, aos níveis federativos:",
-        options: ["municipal e federal", "estadual e federal", "estadual e distrital", "federal e estadual", "federal e municipal"],
-        answer: "federal e municipal",
-    },
-
-    // Questões da PRF
+    // Direito Penal (10 questões placeholder)
     {
         theme: "penal",
-        exam: "PRF",
-        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - Com relação aos princípios, institutos e dispositivos da parte geral do Código Penal (CP), julgue os itens seguintes. Considere que um indivíduo penalmente capaz, em total estado de embriaguez, decorrente de caso fortuito, atropele um pedestre, causando-lhe a morte. Nessa situação, a embriaguez não excluía imputabilidade penal do agente.",
-        options: ["Certo", "Errado"],
-        answer: "Errado",
-    },
-    {
-        theme: "constitucional",
-        exam: "PRF",
-        question: "(CESPE - 2019 - PRF - Policial Rodoviário Federal) - À luz da Constituição Federal de 1988, julgue o item que se segue, a respeito de direitos e garantias fundamentais e da defesa do Estado e das instituições democráticas. Policial rodoviário federal com mais de dez anos de serviço pode candidatar-se ao cargo de deputado federal, devendo, no caso de ser eleito, passar para inatividade a partir do ato de sua diplomação.",
-        options: ["Certo", "Errado"],
-        answer: "Errado",
-    },
-    {
-        theme: "raciocinio",
-        exam: "PRF",
-        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - Considerando que uma equipe de 30 operários, igualmente produtivos, construa uma estrada de 10 km de extensão em 30 dias, julgue os próximos itens. Se a tarefa estiver sendo realizada pela equipe inicial de 30 operários e, no início do quinto dia, 2 operários abandonarem a equipe, e não forem substituídos, então essa perda ocasionará atraso de 10 dias no prazo de conclusão da obra.",
-        options: ["Certo", "Errado"],
-        answer: "Errado",
-    },
-    {
-        theme: "administrativo",
-        exam: "PRF",
-        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que se refere ao regime jurídico administrativo, julgue os itens subsecutivos. A administração não pode estabelecer, unilateralmente, obrigações aos particulares, mas apenas aos seus servidores e aos concessionários, permissionários e delegatários de serviços públicos.",
-        options: ["Certo", "Errado"],
-        answer: "Errado",
-    },
-    {
-        theme: "administrativo",
-        exam: "PRF",
-        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que concerne ao regime jurídico do servidor público federal, julgue os próximos itens. A nomeação para cargo de provimento efetivo será realizada mediante prévia habilitação em concurso público de provas ou de provas e títulos ou, em algumas situações excepcionais, por livre escolha da autoridade competente.",
-        options: ["Certo", "Errado"],
-        answer: "Errado",
-    },
-    {
-        theme: "administrativo",
-        exam: "PRF",
-        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que concerne ao abuso de autoridade e ao Estatuto do Desarmamento, julgue os itens a seguir. Considere que um PRF aborde o condutor de um veículo por este trafegar acima da velocidade permitida em rodovia federal. Nessa situação, se demorar em autuar o condutor, o policial poderá responder por abuso de autoridade, ainda que culposamente.",
-        options: ["Certo", "Errado"],
-        answer: "Errado",
+        question: "O que é um crime?",
+        options: ["Uma conduta que viola a lei penal", "Uma conduta que viola a lei civil", "Uma conduta que viola a lei administrativa", "Uma conduta que viola a lei trabalhista"],
+        answer: "Uma conduta que viola a lei penal",
     },
     {
         theme: "penal",
-        exam: "PRF",
-        question: "(CESPE - 2019 - PRF - Policial Rodoviário Federal) - Com relação aos meios de prova e os procedimentos inerentes a sua colheita, no âmbito da investigação criminal, julgue o próximo item. A entrada forçada em determinado domicílio é lícita, mesmo sem mandado judicial e ainda que durante a noite, caso esteja ocorrendo, dentro da casa, situação de flagrante delito nas modalidades próprio, impróprio ou ficto.",
-        options: ["Certo", "Errado"],
-        answer: "Certo",
+        question: "O que é uma pena?",
+        options: ["Uma sanção imposta pelo Estado", "Uma recompensa por bom comportamento", "Uma indenização por danos causados", "Uma multa por infração de trânsito"],
+        answer: "Uma sanção imposta pelo Estado",
     },
     {
-        theme: "constitucional",
-        exam: "PRF",
-        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que se refere aos princípios fundamentais da Constituição Federal de 1988 (CF) e à aplicabilidade das normas constitucionais, julgue os itens a seguir. No que se refere às relações internacionais, a República Federativa do Brasil rege-se pelos princípios da igualdade entre os Estados, da cooperação entre os povos para o progresso da humanidade e da concessão de asilo político, entre outros.",
-        options: ["Certo", "Errado"],
-        answer: "Certo",
+        theme: "penal",
+        question: "O que é dolo?",
+        options: ["A intenção de cometer um crime", "A negligência ao cometer um crime", "A imprudência ao cometer um crime", "A imperícia ao cometer um crime"],
+        answer: "A intenção de cometer um crime",
     },
     {
-        theme: "portugues",
-        exam: "PRF",
-        question: "(CESPE - 2019 - PRF - Policial Rodoviário Federal) - 1 As atividades pertinentes ao trabalho relacionam-se intrinsecamente com a satisfação das necessidades dos seres humanos — alimentar-se, proteger-se do frio e do 4 calor, ter o que calçar etc. Estas colocam os homens em uma relação de dependência com a natureza, pois no mundo natural estão os elementos que serão utilizados para 7 atendê-las. Se prestarmos atenção à nossa volta, perceberemos que quase tudo que vemos existe em razão de atividades do 10 trabalho humano. Os processos de produção dos objetos que nos cercam movimentam relações diversas entre os indivíduos, assim como a organização do trabalho 13 alterou-se bastante entre diferentes sociedades e momentos da história. De acordo com o cientista social norte-americano 16 Marshall Sahlins, nas sociedades tribais, o trabalho geralmente não tem a mesma concepção que vigora nas sociedades industrializadas. Naquelas, o trabalho está 19 integrado a outras dimensões da sociabilidade — festas, ritos, artes, mitos etc. —, não representando, assim, um mundo à parte. 22 Nas sociedades tribais, o trabalho está em tudo, e praticamente todos trabalham. Sahlins propôs que tais sociedades fossem conhecidas como “sociedades de abundância” ou “sociedades do lazer”, pelo fato de que nelas a satisfação das necessidades básicas sociais e materiais se dá plenamente. Thiago de Mello. Trabalho. Internet: <educacao.globo.com> (com adaptações) Julgue o seguinte item, a respeito das ideias e das construções linguísticas do texto apresentado. Com o emprego da expressão “assim como” (ℓ.12), estabelece-se uma relação de comparação entre ideias expressas no período.",
-        options: ["Certo", "Errado"],
-        answer: "Certo",
+        theme: "penal",
+        question: "O que é culpa?",
+        options: ["A intenção de cometer um crime", "A falta de cuidado ao cometer um crime", "A premeditação de um crime", "A confissão de um crime"],
+        answer: "A falta de cuidado ao cometer um crime",
     },
     {
-        theme: "constitucional",
-        exam: "PRF",
-        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que se refere aos princípios fundamentais da Constituição Federal de 1988 (CF) e à aplicabilidade das normas constitucionais, julgue os itens a seguir. O mecanismo denominado sistema de freios e contrapesos é aplicado, por exemplo, no caso da nomeação dos ministros do Supremo Tribunal Federal (STF), atribuição do presidente da República e dependente da aprovação pelo Senado Federal.",
-        options: ["Certo", "Errado"],
-        answer: "Certo",
+        theme: "penal",
+        question: "O que é um homicídio?",
+        options: ["Matar alguém", "Roubar algo", "Falsificar um documento", "Dirigir embriagado"],
+        answer: "Matar alguém",
     },
-    // Nova questão
+    {
+        theme: "penal",
+        question: "O que é um furto?",
+        options: ["Subtrair coisa alheia móvel", "Matar alguém", "Falsificar um documento", "Dirigir embriagado"],
+        answer: "Subtrair coisa alheia móvel",
+    },
+    {
+        theme: "penal",
+        question: "O que é um roubo?",
+        options: ["Subtrair coisa alheia móvel, mediante violência ou grave ameaça", "Matar alguém", "Falsificar um documento", "Dirigir embriagado"],
+        answer: "Subtrair coisa alheia móvel, mediante violência ou grave ameaça",
+    },
+    {
+        theme: "penal",
+        question: "O que é uma falsificação?",
+        options: ["Alterar um documento verdadeiro", "Criar um documento falso", "Usar um documento falso", "Todas as anteriores"],
+        answer: "Todas as anteriores",
+    },
+    {
+        theme: "penal",
+        question: "O que é embriaguez ao volante?",
+        options: ["Dirigir sob a influência de álcool", "Dirigir sem habilitação", "Dirigir em alta velocidade", "Dirigir na contramão"],
+        answer: "Dirigir sob a influência de álcool",
+    },
+    {
+        theme: "penal",
+        question: "O que é legítima defesa?",
+        options: ["Agir para repelir injusta agressão", "Agir em estado de necessidade", "Agir em estrito cumprimento do dever legal", "Agir em exercício regular de direito"],
+        answer: "Agir para repelir injusta agressão",
+    },
     {
         theme: "civil",
         exam: "Pref. Guarulhos/SP",
@@ -494,14 +473,14 @@ const questions = [
 ];
 
 const themes = ["constitucional", "administrativo", "portugues", "raciocinio", "administracao", "conhecimentos", "penal", "civil"];
-const exams = ["IBGE", "Banco do Brasil", "Pref. Guarulhos/SP", "PRF"]; // Lista de órgãos (bancas)
+const exams = ["all", "IBGE", "Banco do Brasil", "Pref. Guarulhos/SP", "PRF"];
 let currentThemeIndex = 0;
 
 // Elementos do DOM
 const startScreen = document.getElementById("start-screen");
 const quizScreen = document.getElementById("quiz-screen");
 const themeSelect = document.getElementById("theme");
-const examSelect = document.getElementById("exam"); // Novo select para banca
+const examSelect = document.getElementById("exam");
 const startQuizButton = document.getElementById("start-quiz");
 const questionText = document.getElementById("question-text");
 const optionsContainer = document.getElementById("options-container");
@@ -536,20 +515,18 @@ function shuffle(array) {
 // Iniciar o Quiz
 function startQuiz() {
     const selectedTheme = themeSelect.value;
-    const selectedExam = examSelect.value; // Obtém a banca selecionada
+    const selectedExam = examSelect.value;
 
     selectedQuestions = questions
         .filter(question => question.theme === selectedTheme)
-        .filter(question => selectedExam === "all" || question.exam === selectedExam); // Filtra por banca, se aplicável
+        .filter(question => selectedExam === "all" || question.exam === selectedExam);
 
     if (selectedQuestions.length === 0) {
-        alert("Não há questões disponíveis para este tema e banca.");
+        alert("Não há questões disponíveis para este tema e concurso.");
         return;
     }
 
-    // Embaralhar as questões selecionadas
     selectedQuestions = shuffle(selectedQuestions);
-
     currentQuestionIndex = 0;
     startScreen.style.display = "none";
     quizScreen.style.display = "block";
@@ -588,7 +565,6 @@ function displayQuestion() {
         if (confirm(`As questões de ${selectedTheme} acabaram. Mudar para ${nextTheme}?`)) {
             currentThemeIndex = nextThemeIndex;
             themeSelect.value = nextTheme; // Muda a seleção do tema no select
-            examSelect.value = "all"; // Reseta a seleção da banca
             startQuiz(); // Reinicia o quiz com a nova categoria
         } else {
             // O usuário escolheu não mudar de categoria
@@ -649,9 +625,9 @@ startQuizButton.addEventListener("click", startQuiz);
 // Modo Noturno
 themeToggle.addEventListener("change", () => {
     if (themeToggle.checked) {
-        document.body.classList.add("dark-mode");
-    } else {
         document.body.classList.remove("dark-mode");
+    } else {
+        document.body.classList.add("dark-mode");
     }
 });
 
