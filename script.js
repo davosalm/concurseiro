@@ -349,31 +349,36 @@ const questions = [
     // Banco do Brasil - 2015
     {
         theme: "raciocinio",
+        exam: "Banco do Brasil",
         question: "(Banco do Brasil - 2015) Aldo, Baldo e Caldo resolvem fazer um bolão para um concurso da Mega-Sena. Aldo contribui com 12 bilhetes, Baldo, com 15 bilhetes e Caldo, com 9 bilhetes. Eles combinaram que, se um dos bilhetes do bolão fosse sorteado, o prêmio seria dividido entre os três proporcionalmente à quantidade de bilhetes com que cada um contribuiu. Caldo também fez uma aposta fora do bolão e, na data do sorteio, houve 2 bilhetes ganhadores, sendo um deles o da aposta individual de Caldo, e o outro, um dos bilhetes do bolão. Qual a razão entre a quantia total que Caldo recebeu e a quantia que Baldo recebeu?",
         options: ["0,8", "1,5", "2", "2,5", "3"],
         answer: "3",
     },
     {
         theme: "conhecimentos",
+        exam: "Banco do Brasil",
         question: "(Banco do Brasil - 2015) A Comissão de Valores Mobiliários (CVM) é um órgão que regula e fiscaliza o mercado de capitais no Brasil, sendo",
         options: ["subordinada ao Banco Central do Brasil", "subordinada ao Banco do Brasil", "subordinada à Bolsa de Valores de São Paulo (BOVESPA)", "independente do poder público", "vinculada ao poder executivo (Ministério da Fazenda)"],
         answer: "vinculada ao poder executivo (Ministério da Fazenda)",
     },
     {
         theme: "raciocinio",
+        exam: "Banco do Brasil",
         question: "(Banco do Brasil - 2015) Amanda e Belinha são amigas e possuem assinaturas de TV a cabo de empresas diferentes. A empresa de TV a cabo de Amanda dá descontos de 25% na compra dos ingressos de cinema de um shopping. A empresa de TV a cabo de Belinha dá desconto de 30% na compra de ingressos do mesmo cinema. O preço do ingresso de cinema, sem desconto, é de R$ 20,00. Em um passeio em família, Amanda compra 4 ingressos, e Belinha compra 5 ingressos de cinema no shopping, ambas utilizando-se dos descontos oferecidos por suas respectivas empresas de TV a cabo. Quantos reais Belinha gasta a mais que Amanda na compra dos ingressos?",
         options: ["10", "15", "20", "25", "30"],
         answer: "10",
     },
     {
         theme: "raciocinio",
+        exam: "Banco do Brasil",
         question: "(Banco do Brasil - 2015) Em uma determinada agência bancária, para um cliente que chega entre 15 h e 16 h, a probabilidade de que o tempo de espera na fila para ser atendido seja menor ou igual a 15 min é de 80%. Considerando que quatro clientes tenham chegado na agência entre 15 h e 16 h, qual a probabilidade de que exatamente três desses clientes esperem mais de 15 min na fila?",
         options: ["0,64%", "2,56%", "30,72%", "6,67%", "10,24%"],
         answer: "2,56%",
     },
     {
         theme: "raciocinio",
-        question: "(Banco do Brasil - 2015) Um grupo de analistas financeiros composto por 3 especialistas – X, Y e Z – possui a seguinte característica: X e Y decidem corretamente com probabilidade de 80%, e Z decide corretamente em metade das vezes. Como as decisões são tomadas pela maioria, a probabilidade de o grupo tomar uma decisão correta é:",
+        exam: "Banco do Brasil",
+        question: "(Banco do Brasil - 2015) Um grupo de analistas financeiros composto por 3 especialistas  X, Y e Z – possui a seguinte característica: X e Y decidem corretamente com probabilidade de 80%, e Z decide corretamente em metade das vezes. Como as decisões são tomadas pela maioria, a probabilidade de o grupo tomar uma decisão correta é:",
         options: ["0,16", "0,64", "0,48", "0,32", "0,80"],
         answer: "0,80",
     },
@@ -381,31 +386,122 @@ const questions = [
     // Questões do IBGE
     {
         theme: "conhecimentos",
+        exam: "IBGE",
         question: "(IBGE - 2007) Em 2006, o IBGE completou 70 anos de sua fundação. Esse instituto foi criado no contexto histórico da(o):",
         options: ["Ditadura Militar, de Costa e Silva", "Transição Democrática, de José Sarney", "Estado Novo, de Getúlio Vargas", "Plano de Metas, de Juscelino Kubitschek", "Milagre Brasileiro, de Ernesto Geisel"],
         answer: "Estado Novo, de Getúlio Vargas",
     },
     {
         theme: "conhecimentos",
+        exam: "IBGE",
         question: "(IBGE - 2011) Uma nova medição realizada em 2004 pelo Instituto Brasileiro de Geografia e Estatística IBGE foi responsável pela mudança do ponto considerado o mais alto do país que de pouco mais de 3 mil metros de altitude passou a ter pouco mais de 2900 metros. Localizado na região Norte brasileira, recebe a denominação de:",
         options: ["Pico da Neblina", "Pico Cristal", "Pico da Bandeira", "Pico 31 de Março", "Pico das Agulhas Negras"],
         answer: "Pico da Neblina",
     },
     {
         theme: "conhecimentos",
+        exam: "IBGE",
         question: "(IBGE - 2007) O Brasil é uma república federativa formada pela União, pelos estados e pelos municípios. A Câmara dos Deputados e as Câmaras de Vereadores correspondem, respectivamente, aos níveis federativos:",
         options: ["municipal e federal", "estadual e federal", "estadual e distrital", "federal e estadual", "federal e municipal"],
         answer: "federal e municipal",
     },
+
+    // Questões da PRF
+    {
+        theme: "penal",
+        exam: "PRF",
+        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - Com relação aos princípios, institutos e dispositivos da parte geral do Código Penal (CP), julgue os itens seguintes. Considere que um indivíduo penalmente capaz, em total estado de embriaguez, decorrente de caso fortuito, atropele um pedestre, causando-lhe a morte. Nessa situação, a embriaguez não excluía imputabilidade penal do agente.",
+        options: ["Certo", "Errado"],
+        answer: "Errado",
+    },
+    {
+        theme: "constitucional",
+        exam: "PRF",
+        question: "(CESPE - 2019 - PRF - Policial Rodoviário Federal) - À luz da Constituição Federal de 1988, julgue o item que se segue, a respeito de direitos e garantias fundamentais e da defesa do Estado e das instituições democráticas. Policial rodoviário federal com mais de dez anos de serviço pode candidatar-se ao cargo de deputado federal, devendo, no caso de ser eleito, passar para inatividade a partir do ato de sua diplomação.",
+        options: ["Certo", "Errado"],
+        answer: "Errado",
+    },
+    {
+        theme: "raciocinio",
+        exam: "PRF",
+        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - Considerando que uma equipe de 30 operários, igualmente produtivos, construa uma estrada de 10 km de extensão em 30 dias, julgue os próximos itens. Se a tarefa estiver sendo realizada pela equipe inicial de 30 operários e, no início do quinto dia, 2 operários abandonarem a equipe, e não forem substituídos, então essa perda ocasionará atraso de 10 dias no prazo de conclusão da obra.",
+        options: ["Certo", "Errado"],
+        answer: "Errado",
+    },
+    {
+        theme: "administrativo",
+        exam: "PRF",
+        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que se refere ao regime jurídico administrativo, julgue os itens subsecutivos. A administração não pode estabelecer, unilateralmente, obrigações aos particulares, mas apenas aos seus servidores e aos concessionários, permissionários e delegatários de serviços públicos.",
+        options: ["Certo", "Errado"],
+        answer: "Errado",
+    },
+    {
+        theme: "administrativo",
+        exam: "PRF",
+        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que concerne ao regime jurídico do servidor público federal, julgue os próximos itens. A nomeação para cargo de provimento efetivo será realizada mediante prévia habilitação em concurso público de provas ou de provas e títulos ou, em algumas situações excepcionais, por livre escolha da autoridade competente.",
+        options: ["Certo", "Errado"],
+        answer: "Errado",
+    },
+    {
+        theme: "administrativo",
+        exam: "PRF",
+        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que concerne ao abuso de autoridade e ao Estatuto do Desarmamento, julgue os itens a seguir. Considere que um PRF aborde o condutor de um veículo por este trafegar acima da velocidade permitida em rodovia federal. Nessa situação, se demorar em autuar o condutor, o policial poderá responder por abuso de autoridade, ainda que culposamente.",
+        options: ["Certo", "Errado"],
+        answer: "Errado",
+    },
+    {
+        theme: "penal",
+        exam: "PRF",
+        question: "(CESPE - 2019 - PRF - Policial Rodoviário Federal) - Com relação aos meios de prova e os procedimentos inerentes a sua colheita, no âmbito da investigação criminal, julgue o próximo item. A entrada forçada em determinado domicílio é lícita, mesmo sem mandado judicial e ainda que durante a noite, caso esteja ocorrendo, dentro da casa, situação de flagrante delito nas modalidades próprio, impróprio ou ficto.",
+        options: ["Certo", "Errado"],
+        answer: "Certo",
+    },
+    {
+        theme: "constitucional",
+        exam: "PRF",
+        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que se refere aos princípios fundamentais da Constituição Federal de 1988 (CF) e à aplicabilidade das normas constitucionais, julgue os itens a seguir. No que se refere às relações internacionais, a República Federativa do Brasil rege-se pelos princípios da igualdade entre os Estados, da cooperação entre os povos para o progresso da humanidade e da concessão de asilo político, entre outros.",
+        options: ["Certo", "Errado"],
+        answer: "Certo",
+    },
+    {
+        theme: "portugues",
+        exam: "PRF",
+        question: "(CESPE - 2019 - PRF - Policial Rodoviário Federal) - 1 As atividades pertinentes ao trabalho relacionam-se intrinsecamente com a satisfação das necessidades dos seres humanos — alimentar-se, proteger-se do frio e do 4 calor, ter o que calçar etc. Estas colocam os homens em uma relação de dependência com a natureza, pois no mundo natural estão os elementos que serão utilizados para 7 atendê-las. Se prestarmos atenção à nossa volta, perceberemos que quase tudo que vemos existe em razão de atividades do 10 trabalho humano. Os processos de produção dos objetos que nos cercam movimentam relações diversas entre os indivíduos, assim como a organização do trabalho 13 alterou-se bastante entre diferentes sociedades e momentos da história. De acordo com o cientista social norte-americano 16 Marshall Sahlins, nas sociedades tribais, o trabalho geralmente não tem a mesma concepção que vigora nas sociedades industrializadas. Naquelas, o trabalho está 19 integrado a outras dimensões da sociabilidade — festas, ritos, artes, mitos etc. —, não representando, assim, um mundo à parte. 22 Nas sociedades tribais, o trabalho está em tudo, e praticamente todos trabalham. Sahlins propôs que tais sociedades fossem conhecidas como “sociedades de abundância” ou “sociedades do lazer”, pelo fato de que nelas a satisfação das necessidades básicas sociais e materiais se dá plenamente. Thiago de Mello. Trabalho. Internet: <educacao.globo.com> (com adaptações) Julgue o seguinte item, a respeito das ideias e das construções linguísticas do texto apresentado. Com o emprego da expressão “assim como” (ℓ.12), estabelece-se uma relação de comparação entre ideias expressas no período.",
+        options: ["Certo", "Errado"],
+        answer: "Certo",
+    },
+    {
+        theme: "constitucional",
+        exam: "PRF",
+        question: "(CESPE - 2013 - PRF - Policial Rodoviário Federal) - No que se refere aos princípios fundamentais da Constituição Federal de 1988 (CF) e à aplicabilidade das normas constitucionais, julgue os itens a seguir. O mecanismo denominado sistema de freios e contrapesos é aplicado, por exemplo, no caso da nomeação dos ministros do Supremo Tribunal Federal (STF), atribuição do presidente da República e dependente da aprovação pelo Senado Federal.",
+        options: ["Certo", "Errado"],
+        answer: "Certo",
+    },
+    // Nova questão
+    {
+        theme: "civil",
+        exam: "Pref. Guarulhos/SP",
+        question: "(VUNESP - 2019 - Pref. Guarulhos/SP) - Considerando a disciplina constante da Lei de Introdução às Normas do Direito Brasileiro (LINDB), pode-se corretamente afirmar que",
+        options: [
+            "se, antes de entrar a lei em vigor, ocorrer nova publicação de seu texto, destinada a correção, o prazo de início da vigência começará a correr da primeira publicação.",
+            "salvo disposição contrária, a lei começa a vigorar em todo o país 90 (noventa) dias depois de oficialmente publicada.",
+            "não se destinando à vigência temporária, a lei terá vigência até que outra a modifique ou revogue e,salvo disposição em contrário, a lei revogada se restaura por ter a lei revogadora perdido a vigência.",
+            "a lei posterior revoga a anterior quando expressa ou tacitamente o declare, quando seja com ela incompatível ou quando regule total ou parcialmente a matéria de que tratava a lei anterior.",
+            "a lei nova, que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei anterior e as correções a texto de lei já em vigor consideram-se lei nova."
+        ],
+        answer: "e",
+    }
 ];
 
-const themes = ["constitucional", "administrativo", "portugues", "raciocinio", "administracao", "conhecimentos" /* ... outras categorias ... */];
+const themes = ["constitucional", "administrativo", "portugues", "raciocinio", "administracao", "conhecimentos", "penal", "civil"];
+const exams = ["IBGE", "Banco do Brasil", "Pref. Guarulhos/SP", "PRF"]; // Lista de órgãos (bancas)
 let currentThemeIndex = 0;
 
 // Elementos do DOM
 const startScreen = document.getElementById("start-screen");
 const quizScreen = document.getElementById("quiz-screen");
 const themeSelect = document.getElementById("theme");
+const examSelect = document.getElementById("exam"); // Novo select para banca
 const startQuizButton = document.getElementById("start-quiz");
 const questionText = document.getElementById("question-text");
 const optionsContainer = document.getElementById("options-container");
@@ -440,11 +536,14 @@ function shuffle(array) {
 // Iniciar o Quiz
 function startQuiz() {
     const selectedTheme = themeSelect.value;
+    const selectedExam = examSelect.value; // Obtém a banca selecionada
 
-    selectedQuestions = questions.filter(question => question.theme === selectedTheme);
+    selectedQuestions = questions
+        .filter(question => question.theme === selectedTheme)
+        .filter(question => selectedExam === "all" || question.exam === selectedExam); // Filtra por banca, se aplicável
 
     if (selectedQuestions.length === 0) {
-        alert("Não há questões disponíveis para este tema.");
+        alert("Não há questões disponíveis para este tema e banca.");
         return;
     }
 
@@ -489,6 +588,7 @@ function displayQuestion() {
         if (confirm(`As questões de ${selectedTheme} acabaram. Mudar para ${nextTheme}?`)) {
             currentThemeIndex = nextThemeIndex;
             themeSelect.value = nextTheme; // Muda a seleção do tema no select
+            examSelect.value = "all"; // Reseta a seleção da banca
             startQuiz(); // Reinicia o quiz com a nova categoria
         } else {
             // O usuário escolheu não mudar de categoria
