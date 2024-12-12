@@ -765,16 +765,10 @@ function startQuiz() {
 function displayQuestion() {
     if (currentQuestionIndex < selectedQuestions.length) {
         const question = selectedQuestions[currentQuestionIndex];
-        questionText.textContent = question.question;
-
-        // Adicionar link da fonte à questão
-        if (question.source) {
-            const sourceLink = document.createElement("a");
-            sourceLink.href = question.source;
-            sourceLink.target = "_blank"; // Abrir em nova aba
-            sourceLink.textContent = "?";
-            questionText.appendChild(sourceLink);
-        }
+        
+        // Criar o texto da questão incluindo o nome do exame
+        const examText = `[${question.exam}]\n\n`;
+        questionText.textContent = examText + question.question;
 
         optionsContainer.innerHTML = "";
 
@@ -787,17 +781,16 @@ function displayQuestion() {
         });
     } else {
         // Questões da categoria atual acabaram
-        let nextThemeIndex = (currentThemeIndex + 1) % themes.length; // Próxima categoria
+        let nextThemeIndex = (currentThemeIndex + 1) % themes.length;
         let nextTheme = themes[nextThemeIndex];
 
-        if (confirm(`As questões de ${selectedTheme} acabaram. Mudar para ${nextTheme}?`)) {
+        if (confirm(`As questões de ${themeSelect.value} acabaram. Mudar para ${nextTheme}?`)) {
             currentThemeIndex = nextThemeIndex;
-            themeSelect.value = nextTheme; // Muda a seleção do tema no select
-            startQuiz(); // Reinicia o quiz com a nova categoria
+            themeSelect.value = nextTheme;
+            startQuiz();
         } else {
-            // O usuário escolheu não mudar de categoria
             alert("Fim do Quiz!");
-            startScreen.style.display = "block"; // Volta para a tela inicial
+            startScreen.style.display = "block";
             quizScreen.style.display = "none";
         }
     }
