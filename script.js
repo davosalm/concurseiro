@@ -469,10 +469,238 @@ const questions = [
             "a lei nova, que estabeleça disposições gerais ou especiais a par das já existentes, não revoga nem modifica a lei anterior e as correções a texto de lei já em vigor consideram-se lei nova."
         ],
         answer: "e",
+    },
+    // Novas questões de Informática
+    {
+        theme: "informatica",
+        exam: "Pref. Antônio Prado/RS",
+        question: "Uma recente falha de segurança descoberta numa rede social permitia que funcionários soubessem as senhas dos usuários, pois elas eram armazenadas sem qualquer tipo de codificação criptográfica. Para evitar tal falha, a empresa deveria, desde o início, ter lançado mão de algum método criptográfico para armazenar senhas, entre eles, uma das opções seria:",
+        options: [
+            "Usar redes privadas virtuais (VPN) dentro do ambiente corporativo.",
+            "Utilizar um certificado digital para cada senha.",
+            "Transformar cada senha em uma chave assimétrica com o protocolo IPsec.",
+            "Transformar a senha com um método hash de mão única.",
+            "Fatorar a senha em números primos grandes."
+        ],
+        answer: "Transformar a senha com um método hash de mão única."
+    },
+    {
+        theme: "informatica",
+        exam: "IDAF/AC",
+        question: "No Windows 8, além das diversas funções e recursos existentes para facilitar o seu dia a dia, é possível utilizar teclas de atalhos no teclado para ajudar você a fazer o que quiser mais rápido. Qual a combinação de teclas de atalho para minimizar todas as janelas abertas e ir direto para sua área de trabalho?",
+        options: [
+            "Tecla do logotipo do Windows + L",
+            "Tecla do logotipo do Windows + F",
+            "Tecla do logotipo do Windows + M",
+            "Tecla do logotipo do Windows + E",
+            "Tecla do logotipo do Windows + F1"
+        ],
+        answer: "Tecla do logotipo do Windows + M"
+    },
+    {
+        theme: "informatica",
+        exam: "Pref. Barão de Cocais/MG",
+        question: "Sobre as noções básicas de conhecimento de internet, analise as seguintes afirmativas.\n\n1. A URL é um endereço virtual que indica onde está o que o usuário procura.\n2. HTTP é um protocolo de comunicação que permite a transferência de informação entre redes.\n3. WWW é a sigla para World Wide Web, que significa rede de alcance local.\n\nEstão corretas as afirmativas:",
+        options: [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        answer: "I e II, apenas."
+    },
+    {
+        theme: "informatica",
+        exam: "DMAE de Uberlândia/MG",
+        question: "Conforme o cret.br, a política de segurança da informação define os direitos e as responsabilidades de cada um em relação à segurança dos recursos computacionais que utiliza.\n\nA respeito das políticas de segurança, analise as seguintes afirmativas.\n\n1. A política de privacidade define como são tratadas as informações institucionais, ou seja,define se tais informações podem ser repassadas a terceiros.\n2. A política de senhas define as regras sobre o uso de senhas nos recursos computacionais, como tamanho mínimo e máximo, regra de formação e periodicidade de troca.\n3. A política de backup define as regras sobre a realização de cópias de segurança, como o tipo de mídia utilizada, o período de retenção e a frequência de execução.\n\nEstão corretas as afirmativas:",
+        options: [
+            "I e II, apenas.",
+            "I e III, apenas.",
+            "II e III, apenas.",
+            "I, II e III."
+        ],
+        answer: "II e III, apenas."
+    },
+    {
+        theme: "informatica",
+        exam: "TJ/AM",
+        question: "Com relação a arquitetura e tecnologias de sistemas de informação: Quando o sistema envia a instrução de gravar um byte em um arranjo de discos em RAID 0, a informação é fatiada, e cópias idênticas são gravadas em todos os discos disponíveis.",
+        options: [
+            "Certo",
+            "Errado"
+        ],
+        answer: "Errado"
+    },
+    {
+        theme: "informatica",
+        exam: "UNIRIO",
+        question: "Q é servidor público e postulou readaptação por ter sofrido limitações que impediriam o exercício no cargo público originário que ocupava. Ao submeter-se à inspeção de saúde, foi diagnosticado como totalmente incapaz para o serviço público.\n\nNesse caso, nos termos da Lei no 8.112/1990, o servidor Q será:",
+        options: [
+            "exonerado",
+            "demitido",
+            "disponibilizado",
+            "aposentado",
+            "retornado"
+        ],
+        answer: "aposentado"
+    },
+    {
+        theme: "informatica",
+        exam: "Pref. Sertãozinho/SP",
+        question: "O atalho de teclado para alternar janelas abertas no Windows 7 é:",
+        options: [
+            "TAB",
+            "WINDOWS+TAB",
+            "SHIFT+TAB",
+            "CTRL+TAB",
+            "ALT+TAB"
+        ],
+        answer: "ALT+TAB"
+    },
+    {
+        theme: "informatica",
+        exam: "Pref. Sant´Ana do Livramento/RS",
+        question: "A internet é pautada em um paradigma. Que tipo de modelo de comunicação é esse paradigma?",
+        options: [
+            "Cliente - Servidor.",
+            "Mainframe.",
+            "Data Centers.",
+            "Nenhuma das alternativas."
+        ],
+        answer: "Cliente - Servidor."
+    },
+    {
+        theme: "informatica",
+        exam: "IMBEL",
+        question: "Gabriela preparou uma planilha no MS Excel para lançar as notas de seus alunos. Durante a digitação das notas, Gabriela gostaria de controlar automaticamente as seguintes regras:\n\n1. Aceitar somente notas entre 0 e 10;\n2. Ressaltar, com cor diferenciada, as notas menores que 5.\n\nAssinale a opção que indica os recursos do MS Excel que Gabriela deverá usar para obter esse controle.",
+        options: [
+            "Validação de dados / Formatação condicional.",
+            "Formatação condicional / Classificar e Filtrar.",
+            "Verificação de erros / Teste de hipóteses.",
+            "Teste de hipóteses / Verificação de erros.",
+            "Classificar e Filtrar / Validação de dados."
+        ],
+        answer: "Validação de dados / Formatação condicional."
+    },
+    // Novas questões de Legislação Federal
+    {
+        theme: "legislacao",
+        exam: "FPMA",
+        question: "A Constituição Federal de 1988 determina que a Administração Pública adote um parâmetro aberto de acesso à informação pública, sendo excepcional a atribuição de sigilo. Sobre o assunto, assinale a alternativa correta.",
+        options: [
+            "O orçamento do Fundo de Previdência Municipal de Araucária deve permanecer resguardado por sigilo, considerando que o acesso irrestrito a essas informações pode comprometer a estabilidade financeira do Município.",
+            "A Lei nº 12.527/2011 não se aplica ao Fundo de Previdência Municipal de Araucária, dada sua natureza jurídica de autarquia municipal.",
+            "De acordo com os tratados internacionais firmados pelo Brasil em relação a essa matéria, os documentos públicos sigilosos só podem adquirir publicidade após 20 anos de sua edição.",
+            "O artigo 21 da Lei nº 12.52 7/2011 estabelece que n ão pode ser negado o acesso à informação pública pertinente à tutela judicial ou administrativa de direitos fundamentais. Esse dispositivo legal não pode ser oposto contra o Fundo de Previdência Municipal de Araucária, tendo em vista ser esse organismo submetido à disciplina do equilíbrio financeiro e atuarial.",
+            "Os Municípios devem editar legislação própria acerca do acesso à informação pública, respeitados os parâmetros trazidos pela Lei nº 12.527/2011."
+        ],
+        answer: "Os Municípios devem editar legislação própria acerca do acesso à informação pública, respeitados os parâmetros trazidos pela Lei nº 12.527/2011."
+    },
+    {
+        theme: "legislacao",
+        exam: "UFG",
+        question: "Quanto à habilitação de licitantes, o Decreto n. 2.745/1988 dispõe, em seu Capítulo IV, que a inscrição no registro cadastral de licitantes da Petrobras poderá ser cancelada, quando",
+        options: [
+            "houver títulos protestados ou executados.",
+            "ocorrer declaração de inidoneidade da firma.",
+            "deixar de renovar, no prazo, documentos com prazo de validade vencido.",
+            "apresentar, na execução de contrato, desempenho considerado insuficiente."
+        ],
+        answer: "ocorrer declaração de inidoneidade da firma."
+    },
+    {
+        theme: "legislacao",
+        exam: "CRF/PR",
+        question: "O Decreto n.º 8.373/2014 instituiu o Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas (e Social). Por meio desse sistema, os empregadores passarão a comunicar ao governo, de forma unificada, as informações relativas aos trabalhadores, como vínculos, contribuições previdenciárias, folha de pagamento, comunicações de acidente de trabalho, aviso prévio, escriturações fiscais e informações sobre o FGTS. Sendo assim, conforme a Resolução do Comitê Diretivo do e Social n.º 2/2016, publicada no dia 31 de agosto de 2016, no Diário Oficial da União, assinale a alternativa correta quanto ao cronograma de implantação do e Social.",
+        options: [
+            "A implantação do sistema foi realizada por completo, a partir do dia 1.º de julho de 2019, aos empregadores e contribuintes, independentemente do valor de faturamento anual.",
+            "A implantação do sistema será realizada em duas etapas: a partir de 1.º de janeiro de 2021, a obrigatoriedade de utilização do e Social Empresas será para os empregadores e contribuintes com faturamento apurado, no ano de 2019, superior a R$ 78 milhões; e, a partir de 1.º de julho de 2021, a obrigatoriedade será estendida aos demais empregadores e contribuintes, independentemente do valor de faturamento anual.",
+            "A implantação do sistema foi realizada em duas etapas: a partir de 1.º de janeiro de 2018, a obrigatoriedade de utilização do e Social Empresas foi para os empregadores e contribuintes com faturamento apurado, no ano de 2016, superior a R$ 78 milhões; e, a partir de 1.º de julho de 2018, a obrigatoriedade foi estendida aos demais empregadores e contribuintes, independentemente do valor de faturamento anual.",
+            "A implantação do sistema foi realizada por completo, a partir do dia 1.º de janeiro de 2019, aos empregadores e contribuintes, independentemente do valor de faturamento anual.",
+            "A implantação do sistema será realizada em duas etapas: a partir de 1.º de janeiro de 2020, a obrigatoriedade de utilização do e Social Empresas será para os empregadores e contribuintes com faturamento apurado, no ano de 2018, superior a R$ 78 milhões; e, a partir de 1.º de julho de 2020, a obrigatoriedade será estendida aos demais empregadores e contribuintes, independentemente do valor de faturamento anual."
+        ],
+        answer: "A implantação do sistema foi realizada em duas etapas: a partir de 1.º de janeiro de 2018, a obrigatoriedade de utilização do e Social Empresas foi para os empregadores e contribuintes com faturamento apurado, no ano de 2016, superior a R$ 78 milhões; e, a partir de 1.º de julho de 2018, a obrigatoriedade foi estendida aos demais empregadores e contribuintes, independentemente do valor de faturamento anual."
+    },
+    {
+        theme: "legislacao",
+        exam: "Pref. Sarandi/PR",
+        question: "Assinale a alternativa que NÃO contém um princípio mínimo de atuação das guardas municipais, segundo dispõe o artigo 3º da Lei 13.022:",
+        options: [
+            "Proteção dos direitos humanos fundamentais, do exercício da cidadania e das liberdades públicas.",
+            "Preservação da vida, redução do sofrimento e diminuição das perdas.",
+            "Patrulhamento repressivo.",
+            "Compromisso com a evolução social da comunidade"
+        ],
+        answer: "Patrulhamento repressivo."
+    },
+    {
+        theme: "legislacao",
+        exam: "Valiprev",
+        question: "Com relação aos beneficiários do Regime Geral de Previdência Social, na condição de dependentes do segurado, nos termos da Lei no 8.213/1991, é correto afirmar que",
+        options: [
+            "não pode ser considerado como dependente para os fins de obtenção de benefício previdenciário o irmão não emancipado, de qualquer condição, menor de 21 (vinte e um) anos ou inválido ou que tenha deficiência intelectual ou mental ou deficiência grave.",
+            "o enteado e o menor tutelado equiparam-se a filho e dispensam a comprovação da dependência econômica, bastando, para essa finalidade, a declaração escrita de próprio punho do segurado.",
+            "a companheira, o companheiro e o filho não emancipado, de qualquer condição, menor de 21 (vinte e um) anos são exemplos de dependentes presumidos, que dispensam prova da dependência econômica.",
+            "as provas de união estável e de dependência econômica exigem início de prova material contemporânea dos fatos, sendo admitida, porém, a prova exclusivamente testemunhal quando não houver provas documentais.",
+            "os pais e os avós são considerados dependentes especiais do segurado e poderão obter o benefício por meio de simples apresentação do documento que comprove a relação de parentesco, dispensados outros meios de prova."
+        ],
+        answer: "a companheira, o companheiro e o filho não emancipado, de qualquer condição, menor de 21 (vinte e um) anos são exemplos de dependentes presumidos, que dispensam prova da dependência econômica."
+    },
+    {
+        theme: "legislacao",
+        exam: "CREA/GO",
+        question: "Quanto à anotação de responsabilidade técnica (ART) e à Mútua de Assistência Profissional, previstas na Lei n.º 6.496/1977: A ART define, para os efeitos legais, os responsáveis técnicos pelo empreendimento, sendo que sua falta sujeitará o profissional ou a empresa à multa e às demais cominações legais.",
+        options: [
+            "Certo",
+            "Errado"
+        ],
+        answer: "Certo"
+    },
+    {
+        theme: "legislacao",
+        exam: "CRO/AC",
+        question: "Com base no Decreto n.º 1.171/1994: As comissões de ética devem ser criadas, obrigatoriamente, no âmbito da administração direta, sendo facultativa sua instituição na administração indireta.",
+        options: [
+            "Certo",
+            "Errado"
+        ],
+        answer: "Errado"
+    },
+    {
+        theme: "legislacao",
+        exam: "CREA/TO",
+        question: "Quanto às Leis n.º 5.194/1966, n.º 6.496/1977 e n.º 6.838/1980: Cabe ao Conselho Regional fixar e alterar as anuidades, os emolumentos e as taxas a serem pagas pelos profissionais.",
+        options: [
+            "Certo",
+            "Errado"
+        ],
+        answer: "Errado"
+    },
+    {
+        theme: "legislacao",
+        exam: "TJ/AM",
+        question: "Com base na Lei n.º 11.419/2006: A assinatura eletrônica do signatário corresponde a uma assinatura digital baseada em um certificado digital emitido por autoridade certificadora, em conjunto com a identificação do signatário mediante cadastro de usuário no Poder Judiciário",
+        options: [
+            "Certo",
+            "Errado"
+        ],
+        answer: "Certo"
+    },
+    {
+        theme: "legislacao",
+        exam: "Pref. Lençóis Paulista/SP",
+        question: "De acordo com a Lei Federal nº 8.429 de 2 de junho de 1992, Lei de Improbidade Administrativa , Art. 19. Constitui crime a representação por ato de improbidade contra agente público ou terceiro beneficiário, quando o autor da denúncia o sabe inocente. A pena será de:",
+        options: [
+            "detenção de seis a dez meses e multa.",
+            "detenção de dez a dezoito meses e multa.",
+            "detenção de dez a doze meses e multa.",
+            "detenção de doze a vinte quatro meses e multa."
+        ],
+        answer: "detenção de seis a dez meses e multa."
     }
 ];
 
-const themes = ["constitucional", "administrativo", "portugues", "raciocinio", "administracao", "conhecimentos", "penal", "civil"];
+const themes = ["constitucional", "administrativo", "portugues", "raciocinio", "administracao", "conhecimentos", "penal", "civil", "informatica", "legislacao"];
 const exams = ["all", "IBGE", "Banco do Brasil", "Pref. Guarulhos/SP", "PRF"];
 let currentThemeIndex = 0;
 
